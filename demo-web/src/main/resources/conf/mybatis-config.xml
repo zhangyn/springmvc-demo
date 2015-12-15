@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+      <!-- 命名空间 -->
+   <typeAliases>
+         <typeAlias alias="User" type="com.zzz.demo.model.User"/>
+    </typeAliases>
+ 
+ 
+    
+     <!-- <plugins>
+		<plugin interceptor="com.zoneyet.mte.anysay.core.dal.mybatis.paginator.OffsetLimitInterceptor">
+			<property name="dialectClass" value="com.zoneyet.mte.anysay.core.dal.mybatis.paginator.dialect.MySQLDialect"/>
+		</plugin>
+	</plugins>-->
+  
+</configuration>
