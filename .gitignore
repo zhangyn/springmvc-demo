@@ -1,4 +1,5 @@
 .idea
-target/*
-utils/target
 *.iml
+/target
+utils/target
+/demo-web/target

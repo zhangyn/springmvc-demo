@@ -17,10 +17,11 @@ public class UserController  extends BaseController {
 
     private final static String Url = "/user";
 
+
     @Resource
     private UserService userService;
 
-    @RequestMapping(value=Url,method= RequestMethod.POST ,consumes= MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value=Url,method= RequestMethod.POST ,consumes=MediaType.APPLICATION_JSON_VALUE)
     public JsonResult addson(@RequestBody UserQueryReq page){
         logger.debug("user add:"+page.getName());
         int code  = userService.add(page);
